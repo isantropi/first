@@ -1,0 +1,9 @@
+/home/misantropi/akno/Wissenschaft/first/build/Desktop_Qt_6_8_2-Debug/CMakeFiles/first.dir
+/home/misantropi/akno/Wissenschaft/first/build/Desktop_Qt_6_8_2-Debug/CMakeFiles/edit_cache.dir
+/home/misantropi/akno/Wissenschaft/first/build/Desktop_Qt_6_8_2-Debug/CMakeFiles/rebuild_cache.dir
+/home/misantropi/akno/Wissenschaft/first/build/Desktop_Qt_6_8_2-Debug/CMakeFiles/list_install_components.dir
+/home/misantropi/akno/Wissenschaft/first/build/Desktop_Qt_6_8_2-Debug/CMakeFiles/install.dir
+/home/misantropi/akno/Wissenschaft/first/build/Desktop_Qt_6_8_2-Debug/CMakeFiles/install/local.dir
+/home/misantropi/akno/Wissenschaft/first/build/Desktop_Qt_6_8_2-Debug/CMakeFiles/install/strip.dir
+/home/misantropi/akno/Wissenschaft/first/build/Desktop_Qt_6_8_2-Debug/CMakeFiles/first_autogen_timestamp_deps.dir
+/home/misantropi/akno/Wissenschaft/first/build/Desktop_Qt_6_8_2-Debug/CMakeFiles/first_autogen.dir

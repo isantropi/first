@@ -1,0 +1,83 @@
+\doxysection{Pytanie Class Reference}
+\hypertarget{classPytanie}{}\label{classPytanie}\index{Pytanie@{Pytanie}}
+
+
+{\ttfamily \#include $<$quiz.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classPytanie_af7e90fdc412ecacf33f2fd4b6a156476}{wczytaj}} ()
+\item 
+void \mbox{\hyperlink{classPytanie_acf76c770d0d2dc98b203d96927acd0e1}{zadaj}} ()
+\item 
+void \mbox{\hyperlink{classPytanie_a19118c4c003721a37a69b290456e8167}{sprawdz}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classPytanie_a634bfe1da54c9ad3a29ff1314969a163}\label{classPytanie_a634bfe1da54c9ad3a29ff1314969a163} 
+string {\bfseries tresc}
+\item 
+\Hypertarget{classPytanie_a0de3efb6b0bed51bf34fb1285fdaf512}\label{classPytanie_a0de3efb6b0bed51bf34fb1285fdaf512} 
+string {\bfseries a}
+\item 
+\Hypertarget{classPytanie_a9dbdaaabd38f1187591ecbe636449ace}\label{classPytanie_a9dbdaaabd38f1187591ecbe636449ace} 
+string {\bfseries b}
+\item 
+\Hypertarget{classPytanie_a7da221b2d9d78254e49e469542eaa3c5}\label{classPytanie_a7da221b2d9d78254e49e469542eaa3c5} 
+string {\bfseries c}
+\item 
+\Hypertarget{classPytanie_a23f36809e6fa02e4a6c37c85b5c1f874}\label{classPytanie_a23f36809e6fa02e4a6c37c85b5c1f874} 
+string {\bfseries d}
+\item 
+\Hypertarget{classPytanie_a998fd9aace41ed7476911598c64a18fe}\label{classPytanie_a998fd9aace41ed7476911598c64a18fe} 
+int {\bfseries nr\+\_\+pytania}
+\item 
+\Hypertarget{classPytanie_a0ae143db285e462ada6b09a25f65eb4f}\label{classPytanie_a0ae143db285e462ada6b09a25f65eb4f} 
+string {\bfseries poprawna}
+\item 
+\Hypertarget{classPytanie_ae32da5e0e070c9dbac46095e82321005}\label{classPytanie_ae32da5e0e070c9dbac46095e82321005} 
+string {\bfseries odpowiedz}
+\item 
+\Hypertarget{classPytanie_ad035525862d7c04e41c9f983cc14264d}\label{classPytanie_ad035525862d7c04e41c9f983cc14264d} 
+int {\bfseries punkt}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Klasa reprezentuje pojedyncze pytanie w quizie
+
+Klasa przechowuje treść pytania, możliwe odpowiedzi, poprawną odpowiedź, numer pytania i wynik gracza. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classPytanie_a19118c4c003721a37a69b290456e8167}\label{classPytanie_a19118c4c003721a37a69b290456e8167} 
+\index{Pytanie@{Pytanie}!sprawdz@{sprawdz}}
+\index{sprawdz@{sprawdz}!Pytanie@{Pytanie}}
+\doxysubsubsection{\texorpdfstring{sprawdz()}{sprawdz()}}
+{\footnotesize\ttfamily void Pytanie\+::sprawdz (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Funkcja sprawdza poprawność odpowiedzi użytkownika.
+
+Porównuje odpowiedź użytkownika z poprawną odpowiedzią. Jeśli odpowiedź jest poprawna, przyznaje punkt. \Hypertarget{classPytanie_af7e90fdc412ecacf33f2fd4b6a156476}\label{classPytanie_af7e90fdc412ecacf33f2fd4b6a156476} 
+\index{Pytanie@{Pytanie}!wczytaj@{wczytaj}}
+\index{wczytaj@{wczytaj}!Pytanie@{Pytanie}}
+\doxysubsubsection{\texorpdfstring{wczytaj()}{wczytaj()}}
+{\footnotesize\ttfamily void Pytanie\+::wczytaj (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Funkcja wczytuje pytanie i odpowiedzi z pliku tekstowego.
+
+Otwiera plik "{}quiz.\+txt"{} i pobiera dane dla pytania. Dane są przechowywane w odpowiednich polach obiektu. \Hypertarget{classPytanie_acf76c770d0d2dc98b203d96927acd0e1}\label{classPytanie_acf76c770d0d2dc98b203d96927acd0e1} 
+\index{Pytanie@{Pytanie}!zadaj@{zadaj}}
+\index{zadaj@{zadaj}!Pytanie@{Pytanie}}
+\doxysubsubsection{\texorpdfstring{zadaj()}{zadaj()}}
+{\footnotesize\ttfamily void Pytanie\+::zadaj (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Funkcja zadaje pytanie i pobiera odpowiedź od użytkownika.
+
+Wyświetla pytanie i cztery możliwe odpowiedzi. Następnie oczekuje na wpisanie odpowiedzi przez użytkownika. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+quiz.\+h\item 
+quiz.\+cpp\end{DoxyCompactItemize}

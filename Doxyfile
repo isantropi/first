@@ -1,0 +1,7 @@
+PROJECT_NAME           = "Sample"
+OUTPUT_DIRECTORY       = "dokumentacja"
+INPUT                  = .
+FILE_PATTERNS          = *.h *.cpp
+RECURSIVE              = NO
+GENERATE_HTML         = YES
+GENERATE_LATEX        = YES

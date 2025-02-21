@@ -1,0 +1,23 @@
+\begin{theindex}
+
+  \item {Pytanie}, \hyperpage{5}
+    \subitem {sprawdz}, \hyperpage{5}
+    \subitem {wczytaj}, \hyperpage{5}
+    \subitem {zadaj}, \hyperpage{6}
+
+  \indexspace
+
+  \item {sprawdz}
+    \subitem {Pytanie}, \hyperpage{5}
+
+  \indexspace
+
+  \item {wczytaj}
+    \subitem {Pytanie}, \hyperpage{5}
+
+  \indexspace
+
+  \item {zadaj}
+    \subitem {Pytanie}, \hyperpage{6}
+
+\end{theindex}
