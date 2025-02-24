@@ -21,7 +21,7 @@ void Pytanie::wczytaj() {
         exit(0);
     }
 
-    int nr_linii = (nr_pytania - 1) * 6 + 1;
+    int nr_linii = (nr_pytania - 1) * 6 + 3;
     int aktualny_nr = 1;
     string linia;
 
