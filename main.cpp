@@ -15,6 +15,7 @@ int main() {
     }
 
     cout << "Koniec quizu! Suma zdobytych punktow to:  " << suma << endl;
+    cout << "Bye!";
 
     return(0);
 }
