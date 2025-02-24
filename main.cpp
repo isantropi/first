@@ -13,8 +13,7 @@ int main() {
         p[i].sprawdz();
         suma += p[i].punkt;
     }
-
     cout << "Koniec quizu! Suma zdobytych punktow to:  " << suma << "\n";
-
+    //koniec
     return(0);
 }
