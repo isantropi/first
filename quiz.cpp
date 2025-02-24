@@ -21,10 +21,10 @@ void Pytanie::wczytaj() {
         exit(0);
     }
 
-    int nr_linii = (nr_pytania - 1) * 6 + 3;
+    int nr_linii = (nr_pytania) * 6 + 3;
     int aktualny_nr = 1;
     string linia;
-    cout << "Pytanie " << nr_pytania  + 1;
+    cout << "\nPytanie " << nr_pytania  + 1;
 
     while(getline(plik, linia)) {
         if(aktualny_nr == nr_linii)
@@ -52,7 +52,7 @@ void Pytanie::wczytaj() {
  */
 
 void Pytanie::zadaj() {
-    cout << endl << tresc << endl << a << endl << b << endl << c << endl << d << endl;
+    cout << endl << tresc << endl << "a. " << a << endl << "b. " << b << endl << "c. " << c << endl << "d.a " << d << endl;
     cout << "Podaj odpowiedz: ";
     cin >> odpowiedz;
 }
@@ -66,11 +66,11 @@ void Pytanie::zadaj() {
 
 void Pytanie::sprawdz() {
     if(odpowiedz == poprawna) {
-        cout << "Poprawnie!";
+        cout << "Poprawnie!\n";
         punkt = 1;
     }
     else {
-        cout << "Smuteczek";
+        cout << "Smuteczek\n";
         punkt = 0;
     }
 }
