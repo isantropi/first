@@ -24,6 +24,7 @@ void Pytanie::wczytaj() {
     int nr_linii = (nr_pytania - 1) * 6 + 3;
     int aktualny_nr = 1;
     string linia;
+    cout << "Pytanie " << nr_pytania  + 1;
 
     while(getline(plik, linia)) {
         if(aktualny_nr == nr_linii)
