@@ -14,7 +14,7 @@ int main() {
         suma += p[i].punkt;
     }
 
-    cout << "Koniec quizu! Suma zdobytych punktow to:  " << suma << endl;
+    cout << "Koniec quizu! Suma zdobytych punktow to:  " << suma << "\n";
 
     return(0);
 }
