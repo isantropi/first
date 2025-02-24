@@ -58,3 +58,10 @@
 2	9	1740174824857516482	/home/misantropi/akno/Wissenschaft/first/build/Desktop_Qt_6_8_2-Debug/first_autogen/mocs_compilation.cpp	6375bcb1df8daff9
 9	209	1740174824864517369	CMakeFiles/first.dir/main.cpp.o	b47a831ddc449597
 209	258	1740174825064542701	first	948a0fc2e7f7b6a5
+2	11	1740399893300420203	first_autogen/timestamp	6375bcb1df8daff9
+2	11	1740399893300420203	first_autogen/mocs_compilation.cpp	6375bcb1df8daff9
+2	11	1740399893300420203	/home/misantropi/akno/Wissenschaft/first/build/Desktop_Qt_6_8_2-Debug/first_autogen/timestamp	6375bcb1df8daff9
+2	11	1740399893300420203	/home/misantropi/akno/Wissenschaft/first/build/Desktop_Qt_6_8_2-Debug/first_autogen/mocs_compilation.cpp	6375bcb1df8daff9
+11	258	1740399893309420735	CMakeFiles/first.dir/main.cpp.o	b47a831ddc449597
+11	262	1740399893309420735	CMakeFiles/first.dir/quiz.cpp.o	9cf6eedaecc3339c
+262	318	1740399893560435582	first	948a0fc2e7f7b6a5
